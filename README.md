@@ -37,6 +37,13 @@ Jangles Home Boarding, Walking & Day Care is a small, independent business in Ca
 ### Color Scheme
 ### Typography
 ### Wireframes
+Each link contains wireframes for mobile, tablet and desktop.
+   - [Home/Index](documentation/index_home.png)
+   - [About Us](documentation/about_us.png)
+   - [Gallery](documentation/gallery.png)
+   - [Price List](documentation/gallery.png)
+   - [Contact Us](documentation/gallery.png)
+   - [Thank You](documentation/thank_you.png) - This is displayed in place of an actual submission to a back end server.
 ---
 ## Technologies Used
 ---
