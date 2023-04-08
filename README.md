@@ -36,6 +36,7 @@ Jangles Home Boarding, Walking & Day Care is a small, independent business in Ca
 ---
 ### Color Scheme
 ### Typography
+Google Fonts were sued to import the Poppins and Sintony font styles in the style.css file.
 ### Wireframes
 Each link contains wireframes for mobile, tablet and desktop.
    - [Home/Index](documentation/index_home.png)
