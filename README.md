@@ -56,7 +56,7 @@ Each link contains wireframes for mobile, tablet and desktop.
 - [Balsamiq](https://balsamiq.com/) was used for pre-visualisation of the pages.
 - [Google Fonts](https://fonts.google.com/) was used to import the the '' and '' fonts into the style.css file.
 - [Font Awesome](https://fontawesome.com/) was utilised for icons used on the site, including the socila media icons.
-- [Bootstrap]() was used for 
+- [Bootstrap]() was used for responsive grids.
 - [Git](https://git-scm.com/) was used for version control. It utilised the CLI terminal in GitPod to commit and push to GitHub.
 - [GitPod](https://gitpod.io) was used as the cloud based enviroment based on VS Code to code the site.
 - [GitHub](https://github.com/) was used as the repository for the project after being pushed from GitPod.
