@@ -3,6 +3,119 @@
 
 /*------------Background Colors*/
 
-.bg-colour-header {
-    background-color: aqua;
+.bg-color-header {
+    background-color: #fff;
+}
+
+.bg-color-footer {
+    background-color: #0f2554;
+}
+
+/*------------Header*/
+
+.logo {
+    font-family: "Sintony", sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+    letter-spacing: -5px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #0f2554;
+}
+
+ul li {
+    display: inline;
+}
+
+.navigation {
+    margin-top: 30px;
+}
+
+#nav a {
+    font-family: "Poppins";
+    font-weight: bold;
+    text-decoration: none;
+    color: #a5551a;
+}
+
+#nav a:hover {
+    color: #0f2554;
+}
+
+.spacer {
+    font-weight: bolder;
+    color: #0f2554;
+}
+
+/*------------Footer*/
+
+.copyright {
+    color: #fff;
+    text-align: center;
+}
+
+.social_media {
+    color: #fff;
+    text-align: center;
+}
+
+.footer_headings {
+    font-family: "Sintony", sans-serif;
+    font-size: 14px;
+}
+
+.footer_col {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social-media-links a {
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+}
+
+.social-media-links a:hover {
+    color: #a5551a;
+}
+
+.copyright {
+    padding-top: 35px;
+}
+
+/*------------Padding, Margin and Text Effects*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.active-link {
+    color: #0f2554;
+    border-bottom: 2px solid #0f2554;
+}
+
+/*------------Hero Image and welcome message*/
+
+#welcome-image {
+    height: 500px;
+    width: 100%;
+    background: url() no-repeat center center;
+
+    animation-name: hero-zoomout;
+    animation-duration: 5s;
+    animation-fill-mode: forward;
+}
+
+#welcome-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
