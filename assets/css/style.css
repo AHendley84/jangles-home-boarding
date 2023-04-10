@@ -4,7 +4,7 @@
 /*------------Background Colors*/
 
 .bg-color-header {
-    background-color: #fff;
+    background-color: #0f2554;
 }
 
 .bg-color-footer {
@@ -13,17 +13,35 @@
 
 /*------------Header*/
 
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .logo {
     font-family: "Sintony", sans-serif;
-    font-weight: bold;
-    margin-left: 20px;
+    font-weight: 700;
+    font-size: 200%;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 20px;
-    letter-spacing: -5px;
+    letter-spacing: -2px;
 }
 
 .logo a {
     text-decoration: none;
-    color: #0f2554;
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.logo a:hover {
+    color: #a5551a;
 }
 
 ul li {
@@ -31,23 +49,39 @@ ul li {
 }
 
 .navigation {
-    margin-top: 30px;
+    font-size: 80%;
+    padding-left: 0px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.navigation ul {
+    padding: 0;
 }
 
 #nav a {
-    font-family: "Poppins";
-    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
     text-decoration: none;
-    color: #a5551a;
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 #nav a:hover {
-    color: #0f2554;
+    color: #a5551a;
+    
 }
 
+.active-link {
+    border-bottom: 2px solid #a5551a;
+}
 .spacer {
     font-weight: bolder;
-    color: #0f2554;
+    color: #fff;
 }
 
 /*------------Footer*/
@@ -60,34 +94,44 @@ ul li {
 .social_media {
     color: #fff;
     text-align: center;
+    margin-top: 20px;
 }
 
 .footer_headings {
     font-family: "Sintony", sans-serif;
     font-size: 14px;
+    text-align: center;
 }
 
 .footer_col {
     margin-top: 20px;
-    margin-bottom: 20px;
+    text-align: center;
 }
 
 .social-media-links a {
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     text-decoration: none;
     padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-bottom: 0px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.list-inline {
+    list-style: none;
 }
 
 .social-media-links a:hover {
     color: #a5551a;
 }
 
-.copyright {
-    padding-top: 35px;
+.empty-col {
+    height: 0px;
 }
 
 /*------------Padding, Margin and Text Effects*/
@@ -96,26 +140,76 @@ ul li {
     text-transform: uppercase;
 }
 
-.active-link {
-    color: #0f2554;
-    border-bottom: 2px solid #0f2554;
+
+
+/*------------Welcome image and welcome message*/
+
+.welcome-image {
+    background: url("../images/welcome_picture_compressed.jpg") no-repeat top center;
+    background-size: cover;
+    height: 600px;
 }
 
-/*------------Hero Image and welcome message*/
-
-#welcome-image {
-    height: 500px;
-    width: 100%;
-    background: url() no-repeat center center;
-
-    animation-name: hero-zoomout;
-    animation-duration: 5s;
-    animation-fill-mode: forward;
+.welcome-text {
+    color: #fff;
+    font-size: 100%;
+    font-family: "Sintony", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 275px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: rgba(165, 85, 26, 0.5);
+    top: 300px;
+    left: 40px;
+    position: absolute;
 }
 
-#welcome-outer {
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+/*------------Media Queries*/
+
+@media screen and (min-width: 819px) {
+    .logo {
+        margin-bottom: 20px;
+    }
+    
+    .navigation {
+        margin-top: 45px;
+        letter-spacing: -1px;
+    }
+
+    .copyright {
+        margin-top: 35px;
+    }
+
+    .welcome-image {
+        height: 800px;
+    }
+}
+
+@media screen and (min-width: 1394px) {
+    
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .navigation {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 100%;
+        letter-spacing: 1px;
+    }
+
+    #nav a:hover {
+        color: #a5551a;
+        text-decoration: underline;
+    }
+
+    .copyright {
+        margin-top: 40px;
+    }
+
+    .welcome-image {
+        height: 1000px;
+    }
 }
