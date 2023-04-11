@@ -25,7 +25,7 @@
     font-family: "Sintony", sans-serif;
     font-weight: 700;
     font-size: 200%;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 10px;
     margin-top: 20px;
     letter-spacing: -2px;
@@ -89,6 +89,7 @@ ul li {
 .copyright {
     color: #fff;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .social_media {
@@ -204,9 +205,18 @@ ul li {
     font-weight: bolder;
 }
 
+.profile_pictures {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: #0f2554;
+    margin-top: 50px;
+}
+
 /*------------Media Queries*/
 
-@media screen and (min-width: 819px) {
+@media screen and (min-width: 767px) {
     .logo {
         margin-bottom: 20px;
     }
@@ -228,7 +238,9 @@ ul li {
 @media screen and (min-width: 1394px) {
     
     .logo {
-        margin-bottom: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 50px;
     }
 
     .navigation {
