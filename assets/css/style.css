@@ -249,7 +249,7 @@ ul li {
 
     .about_background {
         background: url("../images/about_image.jpg") no-repeat center;
-        min-height: 250px;
+        min-height: 200px;
         min-width: 100%;
         background-size: cover;
     }
@@ -290,8 +290,8 @@ ul li {
 
     .about_background {
         background: url("../images/about_image.jpg") no-repeat center;
-        min-height: 350px;
-        min-width: 100%;
+        min-height: 250px;
+        max-width: 100%;
         background-size: cover;
     }
 }
