@@ -169,6 +169,13 @@ ul li {
 
 /*------------About page styling*/
 
+.about_background {
+    background: url("../images/about_image.jpg") no-repeat center;
+    min-height: 150px;
+    min-width: 100%;
+    background-size: cover;
+}
+
 .about_header,
 .meet_header {
     color: #0f2554;
@@ -233,6 +240,19 @@ ul li {
     .welcome-image {
         height: 800px;
     }
+
+    .about_background {
+        background: url("../images/about_image.jpg") no-repeat center;
+        height: 200px;
+        width: 100%;
+    }
+
+    .about_background {
+        background: url("../images/about_image.jpg") no-repeat center;
+        min-height: 250px;
+        min-width: 100%;
+        background-size: cover;
+    }
 }
 
 @media screen and (min-width: 1394px) {
@@ -261,5 +281,17 @@ ul li {
 
     .welcome-image {
         height: 1000px;
+    }
+
+    .profile_pictures {
+        width: 225px;
+        height: 225px;
+    }
+
+    .about_background {
+        background: url("../images/about_image.jpg") no-repeat center;
+        min-height: 350px;
+        min-width: 100%;
+        background-size: cover;
     }
 }
