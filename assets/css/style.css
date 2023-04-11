@@ -221,6 +221,26 @@ ul li {
     margin-top: 50px;
 }
 
+/*------------Gallery page styling*/
+
+.gallery_header {
+    color: #0f2554;
+    font-size: 200%;
+    font-family: "Sintony", sans-serif;
+    padding: 15px 0px 10px 15px;
+}
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0px;
+}
+
+#gallery img {
+    width: 100%;
+}
+
 /*------------Media Queries*/
 
 @media screen and (min-width: 767px) {
@@ -252,6 +272,10 @@ ul li {
         min-height: 200px;
         min-width: 100%;
         background-size: cover;
+    }
+
+    #gallery {
+        column-count: 3;
     }
 }
 
@@ -290,8 +314,12 @@ ul li {
 
     .about_background {
         background: url("../images/about_image.jpg") no-repeat center;
-        min-height: 250px;
+        min-height: 300px;
         max-width: 100%;
         background-size: cover;
+    }
+
+    #gallery {
+        column-count: 4;
     }
 }
