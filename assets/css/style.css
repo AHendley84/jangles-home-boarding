@@ -79,6 +79,7 @@ ul li {
 .active-link {
     border-bottom: 2px solid #8B8B8B;
 }
+
 .spacer {
     font-weight: bolder;
     color: #fff;
@@ -89,6 +90,7 @@ ul li {
 .copyright {
     color: #fff;
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -96,6 +98,7 @@ ul li {
     color: #fff;
     text-align: center;
     margin-top: 20px;
+    padding-bottom: 10px;
 }
 
 .footer_headings {
@@ -146,10 +149,12 @@ ul li {
 /*------------Welcome image and welcome message*/
 
 .welcome-image {
-    background: url("../images/welcome_picture_compressed.jpg") no-repeat top center;
+    background: url("../images/welcome_picture_compressed.jpg") no-repeat center center;
     background-size: cover;
     height: 600px;
 }
+
+/*---The below CSS code is based on code utilised in the Love Running Project*/
 
 .welcome-text {
     color: #fff;
@@ -223,12 +228,21 @@ ul li {
 
 /*------------Gallery page styling*/
 
+.gallery_background {
+    background: url("../images/gallery_image.jpg") no-repeat top;
+    min-height: 150px;
+    min-width: 100%;
+    background-size: cover;
+}
+
 .gallery_header {
     color: #0f2554;
     font-size: 200%;
     font-family: "Sintony", sans-serif;
     padding: 15px 0px 10px 15px;
 }
+
+/*---The below CSS code is based on the gallery utilised in the Love Running Project*/
 
 #gallery {
     clear: both;
@@ -241,6 +255,8 @@ ul li {
     width: 100%;
 }
 
+/*---End ---*/ 
+
 /*------------Media Queries*/
 
 @media screen and (min-width: 767px) {
@@ -250,6 +266,7 @@ ul li {
     
     .navigation {
         margin-top: 45px;
+        padding-right: 10px;
         letter-spacing: -1px;
     }
 
@@ -261,21 +278,29 @@ ul li {
         height: 800px;
     }
 
-    .about_background {
-        background: url("../images/about_image.jpg") no-repeat center;
-        height: 200px;
-        width: 100%;
+    .welcome-text {
+        height: 300px;
     }
 
     .about_background {
-        background: url("../images/about_image.jpg") no-repeat center;
-        min-height: 200px;
-        min-width: 100%;
-        background-size: cover;
+        height: 200px;
     }
 
     #gallery {
         column-count: 3;
+    }
+
+    .gallery_background {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 1049px) {
+    
+    .navigation {
+        margin-top: 30px;
+        font-size: 80%;
+        letter-spacing: 1px;
     }
 }
 
@@ -313,10 +338,11 @@ ul li {
     }
 
     .about_background {
-        background: url("../images/about_image.jpg") no-repeat center;
         min-height: 300px;
-        max-width: 100%;
-        background-size: cover;
+    }
+
+    .gallery_background {
+        height: 300px;
     }
 
     #gallery {
