@@ -257,6 +257,52 @@ ul li {
 
 /*---End ---*/ 
 
+/*------------Price list*/
+
+.price_background {
+    background: url("../images/pricelist_image.jpg") no-repeat bottom;
+    min-height: 150px;
+    min-width: 100%;
+    background-size: cover;
+}
+
+.price_header {
+    color: #0f2554;
+    font-size: 200%;
+    font-family: "Sintony", sans-serif;
+    padding: 15px 0px 10px 15px;
+}
+
+.table-bordered th {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background-color: #0f2554;
+    color: #fff;
+    text-align: center;
+}
+
+.table-bordered td {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #8B8B8B;
+    text-align: center;
+}
+
+.table-bordered td i {
+    color: #a5551a;
+}
+
+.cancel_policy ul {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cancel_policy li {
+    font-family: "Poppins", sans-serif;
+    font-family: 500;
+    color: #a5551a;
+}
+
 /*------------Media Queries*/
 
 @media screen and (min-width: 767px) {
@@ -291,6 +337,10 @@ ul li {
     }
 
     .gallery_background {
+        height: 200px;
+    }
+
+    .price_background {
         height: 200px;
     }
 }
@@ -347,5 +397,9 @@ ul li {
 
     #gallery {
         column-count: 4;
+    }
+
+    .price_background {
+        height: 300px;
     }
 }
