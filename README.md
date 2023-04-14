@@ -1,6 +1,8 @@
 # Jangles Home Boarding, Walking & Day Care Website
 Jangles Home Boarding, Walking & Day Care is a small, independent business in Caerphilly, South Wales that was established in 2014. It provides a home from home experience for your dog and goes the extra mile to ensure that your dog has the best time possible during their stay. It is a service me and my wife have used for 7 years with our two dogs, so we have first-hand experience of how wonderful the service is and how well the dogs are treated. The business is heavily active on social media, however, they have not had a website for a number of years. I believe that a well designed and informative website will be an invaluable tool in providing useful information to new and existing customers whilst promoting the brand.
 
+![Visual Representation](documentation/responsive_image.jpg)
+
 ## User Experience (UX)
 ---
 ### User Stories
@@ -21,7 +23,7 @@ Jangles Home Boarding, Walking & Day Care is a small, independent business in Ca
 
 - Website Administrator
    
-   - As a website administrator, I would like to display and update customer reviews with ease.
+   - As a website administrator, I would like to display and update the gallery with ease.
    - As a website administrator, I would like to be contactable via the website directly to my email address.
 
 ---
@@ -30,7 +32,11 @@ Jangles Home Boarding, Walking & Day Care is a small, independent business in Ca
 ### Navigation Bar
 ### Footer
 ### Home page
-### About Us
+### About
+### Gallery
+### Price List
+### Contact
+### Thank You
 ---
 ## Design
 ---
@@ -60,6 +66,7 @@ Each link contains wireframes for mobile, tablet and desktop.
 - [Git](https://git-scm.com/) was used for version control. I utilised the CLI terminal in GitPod to commit and push to GitHub.
 - [GitPod](https://gitpod.io) was used as the cloud based enviroment based on VS Code to develop the site.
 - [GitHub](https://github.com/) was used as the repository for the project after being pushed from GitPod.
+- [Google Maps](https://www.google.com/maps) for the business location map.
 
 ## Testing
 ---
@@ -77,14 +84,14 @@ Each link contains wireframes for mobile, tablet and desktop.
 ### How the site was deployed
 ---
 ### Bugs
-- When setting up the contact form I was unable to align the submit button within a DIV to the center. I tried a few methods I thought would work to no avail. A Google search provided the answer and the following code resolved the issue:
+- When setting up the contact form I was unable to align the submit button within a DIV to the center. I tried a few methods I thought would work with no such luck. A Google search provided the answer and the following code resolved the issue:
 ```css
 .button_position {
     display: block;
     margin: 0 auto;
 }
 ```
-Acknowledged in the credits section
+Acknowledged in the credits section for the assitance provided.
 ### Unfixed Bugs
 ---
 ## Credits
@@ -93,3 +100,4 @@ Acknowledged in the credits section
 ---
 ## Acknowledgements
 ---
+- A massive thank you to Cath Jones of Jangles Home Boarding, Walking & Day Care for allowing me to use all the wonderful images she has taken of the dogs.
