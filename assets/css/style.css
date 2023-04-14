@@ -320,7 +320,6 @@ ul li {
 }
 
 .contact_form {
-    width: 100%;
     margin: 15px 15px 15px 15px;
 }
 
@@ -330,6 +329,7 @@ ul li {
 }
 
 .contact_form label {
+    max-width: 300px;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     color: #8B8B8B;

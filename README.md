@@ -92,6 +92,13 @@ Each link contains wireframes for mobile, tablet and desktop.
 }
 ```
 Acknowledged in the credits section for the assitance provided.
+
+- I was experiencing side-scroll on the mobile version of the contact page. The input boxes were exceeding the width of the screen and casugin the side scroll.  I added the following code to my CSS targeting the form and this seems to have resolved the issue:
+```css
+max-width: 300px;
+```
+However, I believe this to be a temporary solution to one problem as the input boxes still expand to the maximum width of the container. I'll look to amend this in a further update wher the information this page expands from a single column on mobile to 3 coloumns on desktop in a future update.
+
 ### Unfixed Bugs
 ---
 ## Credits
