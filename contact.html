@@ -49,7 +49,7 @@
                             |
                         </li>
                         <li>
-                            <a href="contact.html">Contact</a>
+                            <a href="contact.html" class="active-link">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -58,79 +58,71 @@
     </header>
     <!-- /.Logo and Navigation -->
 
-    <!-- Price list page banner -->
+    <!-- Contact page banner -->
     <div class="container-fluid">
         <div class="row no-gutters">
-            <div class="col-12 price_background">
+            <div class="col-12 contact_background">
 
             </div>
         </div>
     </div>
-    <!-- /.Price list page banner -->
+    <!-- /.Contact page banner -->
 
-    <!-- Price list -->
+    <!-- Contact form -->
     <div class="container-fluid">
         <div class="row no-gutters">
             <div class="col-2 d-none d-sm-block d-md-block"></div>
             <div class="col-sm-12 col-md-8 about-info">
-                <h2 class="price_header uppercase">Price List</h2>
-                <div class="row no-gutters">
+                <h2 class="contact_header uppercase">Contact</h2>
+                <p>
+                    Please fill in the form below with your name, email address, enquiry type and a few details about
+                    your dog and we'll get back to you.
+                </p>
+                <div class="row">
                     <div class="col-12">
-                        <div class="table-responsive">
-                            <table class="table table-bordered">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Service</th>
-                                        <th scope="col">Price</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><i class="fa-solid fa-paw"></i><br>Walks</td>
-                                        <td>£14.00 (additional dogs from same household £10.00)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><i class="fa-solid fa-sun"></i><br>Daycare</td>
-                                        <td>£22.00 (£24.00/£26.00 if collection and return is required)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><i class="fa-solid fa-house-circle-check"></i><br>24hr Boarding</td>
-                                        <td>£32.00 (additional dogs from same household £23.00)</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                        <form class="contact_form">
+                            <div class="form-group">
+                                <label for="fullName">Full Name:</label>
+                                <input type="text" class="form-control" id="fullName" placeholder="Enter full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail">Email address:</label>
+                                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                                    placeholder="Enter email" required>
+                            </div>
+
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1"><i class="fa-solid fa-paw"></i>
+                                    Walks</label>
+                                <br>
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1"><i class="fa-solid fa-sun"></i>
+                                    Daycare</label>
+                                <br>
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1"><i
+                                        class="fa-solid fa-house-circle-check"></i> 24hr Boarding</label>
+                                <br>
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1"><i
+                                        class="fa-solid fa-circle-question"></i> General Enquiry</label>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Please provide a few details about
+                                    your dog and/or general enquiry:</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary button_position">Submit</button>
+                        </form>
                     </div>
                 </div>
-                <h2 class="price_header uppercase">Cancellation Policy</h2>
-                <div class="row no-gutters">
-                    <div class="col-12 cancel_policy">
-                        <ul>
-                            <li>If cancellation is made more than 28 days ahead of the time of boarding, no payment is
-                                due.</li>
-                                <hr>
-                            <li>Cancellations with less than 28 days notice will be invoiced at 50% of the total cost of
-                                the stay.</li>
-                                <hr>
-                            <li>Cancellations with less than 7 days notice will be invoiced at the full rate.</li>
-                        </ul>
-                        <p>
-                            We will endeavour to fill any dates of cancelled bookings, and in such situations, any sums
-                            paid will be transferred once, to a later booking- where possible.
-                            (Please check with us for availability before re-booking your holiday).
-                        </p>
-                        <P>
-                            Regular daycare/walking slots require 7 days notice of cancellation (unless your dog is
-                            unwell and in need of veterinary treatment)
-                            Cancellations without the required notice will be charged at usual rate.
-                        </P>
-                    </div>
-                </div>
+
             </div>
             <div class="col-2 d-none d-sm-block d-md-block"></div>
         </div>
     </div>
-    <!-- /.Price list -->
+    <!-- /.Contact form -->
 
     <!-- Footer with social media links -->
     <footer>

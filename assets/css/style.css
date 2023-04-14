@@ -303,6 +303,31 @@ ul li {
     color: #a5551a;
 }
 
+/*------------Contact page*/
+
+.contact_background {
+    background: url("../images/contact_image.jpg") no-repeat top;
+    min-height: 150px;
+    min-width: 100%;
+    background-size: cover;
+}
+
+.contact_header {
+    color: #0f2554;
+    font-size: 200%;
+    font-family: "Sintony", sans-serif;
+    padding: 15px 0px 10px 15px;
+}
+
+.contact_form {
+    padding: 15px 15px 15px 15px;
+}
+
+.button_position {
+    display: block;
+    margin: 0 auto;
+}
+
 /*------------Media Queries*/
 
 @media screen and (min-width: 767px) {
@@ -341,6 +366,10 @@ ul li {
     }
 
     .price_background {
+        height: 200px;
+    }
+
+    .contact_background {
         height: 200px;
     }
 }
@@ -400,6 +429,10 @@ ul li {
     }
 
     .price_background {
+        height: 300px;
+    }
+
+    .contact_background {
         height: 300px;
     }
 }
