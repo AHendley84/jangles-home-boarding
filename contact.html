@@ -1,181 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/4a320e2c4d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/4a320e2c4d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Welcome to Jangles Home Boarding, Walking & Day Care!</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Logo and Navigation -->
     <header>
-        <div class="container-fluid">
-            <div class="row no-gutters bg-color-header">
-                <div class="col-sm-7">
-                    <h1 class="logo uppercase">
-                        <a href="index.html">Jangles Home Boarding, Walking & Day Care</a>
-                    </h1>
-                </div>
-                <nav class="col-sm-5 navigation">
-                    <ul id="nav" class="uppercase">
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li class="spacer">
-                            |
-                        </li>
-                        <li>
-                            <a href="about.html">About</a>
-                        </li>
-                        <li class="spacer">
-                            |
-                        </li>
-                        <li>
-                            <a href="gallery.html">Gallery</a>
-                        </li>
-                        <li class="spacer">
-                            |
-                        </li>
-                        <li>
-                            <a href="price_list.html">Price List</a>
-                        </li>
-                        <li class="spacer">
-                            |
-                        </li>
-                        <li>
-                            <a href="contact.html" class="active-link">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+      <div class="container-fluid">
+        <div class="row no-gutters bg-color-header">
+          <div class="col-sm-7">
+            <h1 class="logo uppercase">
+              <a href="index.html">Jangles Home Boarding, Walking & Day Care</a>
+            </h1>
+          </div>
+          <nav class="col-sm-5 navigation">
+            <ul id="nav" class="uppercase">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li class="spacer">|</li>
+              <li>
+                <a href="about.html">About</a>
+              </li>
+              <li class="spacer">|</li>
+              <li>
+                <a href="gallery.html">Gallery</a>
+              </li>
+              <li class="spacer">|</li>
+              <li>
+                <a href="price_list.html">Price List</a>
+              </li>
+              <li class="spacer">|</li>
+              <li>
+                <a href="contact.html" class="active-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </header>
     <!-- /.Logo and Navigation -->
 
     <!-- Contact page banner -->
     <div class="container-fluid">
-        <div class="row no-gutters">
-            <div class="col-12 contact_background">
-
-            </div>
-        </div>
+      <div class="row no-gutters">
+        <div class="col-12 contact_background"></div>
+      </div>
     </div>
     <!-- /.Contact page banner -->
 
     <!-- Contact form -->
     <main class="container-fluid" aria-labelledby="contact_info">
-        <div class="row no-gutters">
-            <div class="col-2 d-none d-sm-block d-md-block"></div>
-            <div class="col-sm-12 col-md-8 contact_info">
-                <h2 class="contact_header uppercase">Contact</h2>
-                <p>
-                    Please fill in the form below with your name, email address, enquiry type and a few details about
-                    your dog and we'll get back to you.
-                </p>
-                <div class="row no-gutters">
-                    <div class="col-12">
-                        <form class="contact_form">
-                            <div class="form-group">
-                                <label for="fullName">Full Name:</label>
-                                <input type="text" class="form-control" id="fullName" placeholder="Enter full name" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="inputEmail">Email address:</label>
-                                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
-                                    placeholder="Enter email" required>
-                            </div>
+      <div class="row no-gutters">
+        <div class="col-2 d-none d-sm-block d-md-block"></div>
+        <div class="col-sm-12 col-md-8 contact_info">
+          <h2 class="contact_header uppercase">Contact</h2>
+          <p>
+            Please fill in the form below with your name, email address, enquiry
+            type and a few details about your dog and we'll get back to you.
+          </p>
+          <div class="row no-gutters">
+            <div class="col-12">
+              <form class="contact_form"  action="thankyou.html">
+                <div class="form-group">
+                  <label for="fullName">Full Name:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="fullName"
+                    placeholder="Enter full name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="inputEmail">Email address:</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter email"
+                    required
+                  />
+                </div>
 
-                            <div class="form-group form-check">
-                                <input type="checkbox" class="form-check-input" id="walks">
-                                <label class="form-check-label" for="walks"><i class="fa-solid fa-paw"></i>
-                                    Walks</label>
-                                <br>
-                                <input type="checkbox" class="form-check-input" id="daycare">
-                                <label class="form-check-label" for="daycare"><i class="fa-solid fa-sun"></i>
-                                    Daycare</label>
-                                <br>
-                                <input type="checkbox" class="form-check-input" id="boarding">
-                                <label class="form-check-label" for="boarding"><i
-                                        class="fa-solid fa-house-circle-check"></i> 24hr Boarding</label>
-                                <br>
-                                <input type="checkbox" class="form-check-input" id="general">
-                                <label class="form-check-label" for="general"><i
-                                        class="fa-solid fa-circle-question"></i> General Enquiry</label>
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Please provide a few details about
-                                    your dog and/or general enquiry:</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary button_position">Submit</button>
-                        </form>
-                    </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="walks" />
+                  <label class="form-check-label" for="walks"
+                    ><i class="fa-solid fa-paw"></i> Walks</label
+                  >
+                  <br />
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="daycare"
+                  />
+                  <label class="form-check-label" for="daycare"
+                    ><i class="fa-solid fa-sun"></i> Daycare</label
+                  >
+                  <br />
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="boarding"
+                  />
+                  <label class="form-check-label" for="boarding"
+                    ><i class="fa-solid fa-house-circle-check"></i> 24hr
+                    Boarding</label
+                  >
+                  <br />
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="general"
+                  />
+                  <label class="form-check-label" for="general"
+                    ><i class="fa-solid fa-circle-question"></i> General
+                    Enquiry</label
+                  >
                 </div>
-                <h2 class="contact_header uppercase">Where to find us</h2>
-                <div class="row no-gutters">
-                    <div class="col-12 where_map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d619.6852667002055!2d-3.246336930274553!3d51.59130883142318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e190358be3d75%3A0x73d1e928cff99522!2s40%20Ffordd%20Eynon%20Evans%2C%20Caerphilly%20CF83%202ET!5e0!3m2!1sen!2suk!4v1681492998979!5m2!1sen!2suk" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1"
+                    >Please provide a few details about your dog and/or general
+                    enquiry:</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                    required
+                  ></textarea>
                 </div>
-                <h2 class="contact_header uppercase">Other ways to contact us</h2>
-                <div class="row no-gutters">
-                    <div class="col-12 alt_contact">
-                        <p>
-                            <b>Email:</b> cath45@live.com
-                            <br>
-                            <b>Mobile:</b> +44 7769 774182
-                        </p>
-                    </div>
-                </div>
+                <button type="submit" class="btn btn-primary button_position">
+                  Submit
+                </button>
+              </form>
             </div>
-            <div class="col-2 d-none d-sm-block d-md-block"></div>
+          </div>
+          <h2 class="contact_header uppercase">Where to find us</h2>
+          <div class="row no-gutters">
+            <div class="col-12 where_map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d619.6852667002055!2d-3.246336930274553!3d51.59130883142318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e190358be3d75%3A0x73d1e928cff99522!2s40%20Ffordd%20Eynon%20Evans%2C%20Caerphilly%20CF83%202ET!5e0!3m2!1sen!2suk!4v1681492998979!5m2!1sen!2suk"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <h2 class="contact_header uppercase">Other ways to contact us</h2>
+          <div class="row no-gutters">
+            <div class="col-12 alt_contact">
+              <p>
+                <b>Email:</b> cath45@live.com
+                <br />
+                <b>Mobile:</b> +44 7769 774182
+              </p>
+            </div>
+          </div>
         </div>
+        <div class="col-2 d-none d-sm-block d-md-block"></div>
+      </div>
     </main>
     <!-- /.Contact form -->
 
     <!-- Footer with social media links -->
     <footer>
-        <div class="container-fluid bg-color-footer">
-            <div class="row no-gutters">
-                <div class="col-sm-4 social_media">
-                    <h5 class="uppercase footer_headings">Social</h5>
-                    <ul class="list-inline social-media-links">
-                        <li class="list-inline-item">
-                            <a href="https://www.facebook.com/jangleshomeboarding" target="_blank">
-                                <i class="fa-brands fa-facebook" aria-hidden="true"></i>
-                                <span class="sr-only"></span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.instagram.com/cathjangleshomeboarding/" target="_blank">
-                                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only"></span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.tiktok.com/@cathjones4" target="_blank">
-                                <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
-                                <span class="sr-only"></span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-4 empty-col">
-                </div>
-                <div class="col-sm-4 copyright">
-                    <h5 class="uppercase footer_headings"><i class="fa-regular fa-copyright"></i> Jangles Home Boarding,
-                        Walking & Day Care 2023</h5>
-                </div>
-            </div>
+      <div class="container-fluid bg-color-footer">
+        <div class="row no-gutters">
+          <div class="col-sm-4 social_media">
+            <h5 class="uppercase footer_headings">Social</h5>
+            <ul class="list-inline social-media-links">
+              <li class="list-inline-item">
+                <a
+                  href="https://www.facebook.com/jangleshomeboarding"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                  <span class="sr-only"></span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://www.instagram.com/cathjangleshomeboarding/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                  <span class="sr-only"></span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.tiktok.com/@cathjones4" target="_blank">
+                  <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+                  <span class="sr-only"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-4 empty-col"></div>
+          <div class="col-sm-4 copyright">
+            <h5 class="uppercase footer_headings">
+              <i class="fa-regular fa-copyright"></i> Jangles Home Boarding,
+              Walking & Day Care 2023
+            </h5>
+          </div>
         </div>
+      </div>
     </footer>
     <!-- /.Footer with social media links -->
-</body>
-
+  </body>
 </html>

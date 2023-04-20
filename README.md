@@ -1,5 +1,5 @@
 # Jangles Home Boarding, Walking & Day Care Website
-Jangles Home Boarding, Walking & Day Care is a small, independent business in Caerphilly, South Wales that was established in 2014. It provides a home from home experience for your dog and goes the extra mile to ensure that your dog has the best time possible during their stay. It is a service me and my wife have used for 7 years with our two dogs, so we have first-hand experience of how wonderful the service is and how well the dogs are treated. The business is heavily active on social media, however, they have not had a website for a number of years. I believe that a well designed and informative website will be an invaluable tool in providing useful information to new and existing customers whilst promoting the brand.
+Jangles Home Boarding, Walking & Day Care is a small, independent business in Caerphilly, South Wales that was established in 2014. It provides a home from home experience for your dog and goes the extra mile to ensure that your dog has the best time possible during their stay. It is a service me and my wife have used for 7 years with our two dogs, so we have first-hand experience of how wonderful it is and how well the dogs are treated. The business is heavily active on social media, however, they have not had a website for a number of years. I believe that a well designed and informative website will be an invaluable tool in providing useful information to new and existing customers whilst promoting the brand.
 
 ![Visual Representation](documentation/responsive_image.jpg)
 
@@ -27,7 +27,7 @@ Jangles Home Boarding, Walking & Day Care is a small, independent business in Ca
    - As a website administrator, I would like to be contactable via the website directly to my email address.
 ### Color Scheme
 ### Typography
-Google Fonts were sued to import the Poppins and Sintony font styles in the style.css file.
+Google Fonts were used to import the 'Poppins' and 'Sintony' font styles in the style.css file.
 ### Wireframes
 Each link contains wireframes for mobile, tablet and desktop.
    - [Home/Index](documentation/index_home.png)
@@ -89,7 +89,7 @@ Acknowledged in the credits section for the assitance provided.
 ```css
 max-width: 300px;
 ```
-However, I believe this to be a temporary solution to one problem as the input boxes still expand to the maximum width of the container. I'll look to amend this in a further update wher the information this page expands from a single column on mobile to 3 coloumns on desktop in a future update.
+However, I believe this to be a temporary solution to one problem as the input boxes still expand to the maximum width of the container. I'll look to amend this in a further update where the information this page expands from a single column on mobile to 3 coloumns on desktop in a future update.
 
 ### Unfixed Bugs
 ---
@@ -100,4 +100,4 @@ However, I believe this to be a temporary solution to one problem as the input b
 ## Credits & Acknowledgements
 ---
 - Credit to RenatoSZ at [Stackoverflow](https://stackoverflow.com/questions/7560832/how-to-center-a-button-within-a-div) for his answer in helping me align my submit button within a DIV tag.
-- A massive thank you to Cath Jones of Jangles Home Boarding, Walking & Day Care for allowing me to use all the wonderful images she has taken of the dogs.
+- A massive thank you to Cath Jones of Jangles Home Boarding, Walking & Day Care for allowing me to use all the wonderful images she has taken of the dogs in her care.
