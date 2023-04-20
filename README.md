@@ -18,9 +18,8 @@ Jangles Home Boarding, Walking & Day Care is a small, independent business in Ca
 
    - As a returning visitor, I want to easily view the gallery page.
    - As a returning visitor, I want to be able to contact the business owner about specific dates for boarding.
-   - As a returning visitor, I want to easily find customer reviews for the business.
-
-
+   
+   
 - Website Administrator
    
    - As a website administrator, I would like to display and update the gallery with ease.
