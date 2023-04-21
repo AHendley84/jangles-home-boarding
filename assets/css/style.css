@@ -3,11 +3,11 @@
 
 /*------------Background Colors*/
 
-.bg-color-header {
+.bg_color_header {
     background-color: #0f2554;
 }
 
-.bg-color-footer {
+.bg_color_footer {
     background-color: #0f2554;
 }
 
@@ -76,7 +76,7 @@ ul li {
     
 }
 
-.active-link {
+.active_link {
     border-bottom: 1.5px solid #fff;
 }
 
@@ -112,7 +112,7 @@ ul li {
     text-align: center;
 }
 
-.social-media-links a {
+.social_media_links a {
     font-size: 30px;
     color: #fff;
     text-decoration: none;
@@ -130,7 +130,7 @@ ul li {
     list-style: none;
 }
 
-.social-media-links a:hover {
+.social_media_links a:hover {
     color: #a5551a;
 }
 
@@ -144,9 +144,31 @@ ul li {
     text-transform: uppercase;
 }
 
+.info {
+    padding: 20px 10px 20px 10px;
+}
+
+.info p {
+    color: #3f3f3f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+    padding: 0px 15px 10px 15px;
+}
+
+.info p b {
+    color: #0f2554;
+    font-weight: bolder;
+}
+
+.gallery_info {
+    padding: 20px 0px 0px 0px;
+}
+
 /*------------Welcome image and welcome message*/
 
-.welcome-image {
+.welcome_image {
     background: url("../images/welcome_picture_compressed.jpg") no-repeat top;
     background-size: cover;
     height: 600px;
@@ -154,7 +176,7 @@ ul li {
 
 /*---The below CSS code is based on code utilised in the Love Running Project*/
 
-.welcome-text {
+.welcome_text {
     color: #fff;
     font-size: 100%;
     font-family: "Sintony", sans-serif;
@@ -187,15 +209,6 @@ ul li {
     padding: 15px 0px 10px 15px;
 }
 
-.about-info p {
-    color: #3f3f3f;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    text-align: justify;
-    padding: 0px 15px 10px 15px;
-}
-
 .resident_dogs {
     color: #0f2554;
     font-size: 150%;
@@ -210,11 +223,6 @@ ul li {
     padding: 15px 0px 10px 15px;
 }
 
-.about-info p b {
-    color: #0f2554;
-    font-weight: bolder;
-}
-
 .profile_pictures {
     width: 175px;
     height: 175px;
@@ -222,6 +230,7 @@ ul li {
     border: 5px solid;
     border-color: #0f2554;
     margin-top: 50px;
+    margin-left: 10px;
 }
 
 /*------------Gallery page styling*/
@@ -237,7 +246,8 @@ ul li {
     color: #0f2554;
     font-size: 200%;
     font-family: "Sintony", sans-serif;
-    padding: 15px 0px 10px 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
 }
 
 /*---The below CSS code is based on the gallery utilised in the Love Running Project*/
@@ -268,7 +278,7 @@ ul li {
     color: #0f2554;
     font-size: 200%;
     font-family: "Sintony", sans-serif;
-    padding: 15px 0px 10px 15px;
+    padding: 15px 0px 25px 15px;
 }
 
 .table-bordered th {
@@ -306,7 +316,7 @@ ul li {
 }
 
 .cancel_policy {
-    padding-bottom: 53px;
+    padding-bottom: 30px;
 }
 
 /*------------Contact page*/
@@ -322,7 +332,7 @@ ul li {
     color: #0f2554;
     font-size: 200%;
     font-family: "Sintony", sans-serif;
-    padding: 15px 0px 10px 15px;
+    padding: 25px 0px 25px 15px;
 }
 
 .contact_info p {
@@ -360,6 +370,10 @@ ul li {
     height: 200px;
     border-radius: 15px;
     padding: 15px;
+}
+
+.alt_contact {
+    padding-bottom: 30px;
 }
 
 /*------------Thank You page*/
@@ -413,11 +427,11 @@ ul li {
         margin-top: 35px;
     }
 
-    .welcome-image {
+    .welcome_image {
         height: 800px;
     }
 
-    .welcome-text {
+    .welcome_text {
         height: 300px;
     }
 
@@ -451,7 +465,15 @@ ul li {
     }
 
     .thank_you_text {
+        width: 600px;
+        height: 300px;
+        font-size: 115%;
         top: 500px;
+        left: 125px;
+    }
+
+    .thank_you_text h2 {
+        font-size: 175%;
     }
 }
 
@@ -488,13 +510,14 @@ ul li {
         margin-top: 40px;
     }
 
-    .welcome-image {
+    .welcome_image {
         min-height: 1075px;
     }
 
     .profile_pictures {
         width: 225px;
         height: 225px;
+        margin-left: 30px;
     }
 
     .about_background {
@@ -522,6 +545,10 @@ ul li {
         padding: 0px 150px 0px 150px;
     }
 
+    .input_control {
+        max-width: 800px;
+    }
+
     .where_map iframe {
         height: 400px;
     }
@@ -531,8 +558,15 @@ ul li {
     }
 
     .thank_you_text {
-        top: 200px;
-        left: 1000px;
+        width: 600px;
+        height: 300px;
+        font-size: 150%;
+        top: 300px;
+        left: 700px;
+    }
+
+    .thank_you_text h2 {
+        font-size: 200%;
     }
 
 }
