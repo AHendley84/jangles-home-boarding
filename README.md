@@ -45,13 +45,37 @@ Each link contains wireframes for mobile, tablet and desktop.
 ## Features
 ---
 ### Navigation Bar
+The Navigation bar provides users to navigate the site with ease. It's consitant presence at the top of the page allows users to find the content they require with a single click.
+
+![Navigation bar image](documentation/feature_navigation_bar.png)
 ### Footer
+The footer provides access to the social media links for the business in a clear and easy to understand format.
+
+![Footer with social media links image](documentation/feature_footer_bar.png)
 ### Home page
+The homepage provides an warm introductory to the website with a hero image of the resident dogs with clear site of the navigation bar to access the relevant areas of the site. The page is responsive with the position of the welcome text and hero image responding to larger screens.
+
+![Image of the homepage](documentation/feature_homepage.png)
 ### About
+The about page provides information about the owners, the business history and boarding license details, and a fun and informative profile about each of the resident dogs. The page is responsive with the images of the dogs under the profile appearing on larger screens and staying hidden on smaller devices.
+
+![Image of the About page](documentation/feature_about.png)
 ### Gallery
+The gallery provides insight to what the guests are treated to whilst staying at Jangles. It has a responsive feature of changing from a single column on smaller devices to three then four on larger devices depending on screen size.
+
+![Image of the Gallery page](documentation/feature_gallery.png)
 ### Price List
+The price list page provides the price for the services provided and the cancellation policy. The page is responsive dependent on screen size.
+
+![Image of the Price List page](documentation/feature_price_list.png)
 ### Contact
+The contact page provides information and tools to locate and contact the business. The form and map are responsive dependent on the size of the screen.
+
+![Image of the Contact page](documentation/feature_contact.png)
 ### Thank You
+The thank you page is currently a place holder instead of the information being submitted to a backend server. The text advising when the team will be in contact is responsive dependent on screen size as is the hero image.
+
+![Image of the Thank You page](documentation/feature_thankyou.png)
 ---
 ## Technologies Used
 ---
