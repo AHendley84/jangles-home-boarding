@@ -84,10 +84,36 @@ HTML Markup Validator results:
 
 #### CSS
 W3C CSS Validator results [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fahendley84.github.io%2Fjangles-home-boarding%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#warnings)
+
 ### Browser Compatibility
+The site has been tested on the following browsers (latest builds as of 24/04/2023):
+- Google Chrome version Version 112.0.5615.138 (Official Build) (64-bit)
+- Mozilla Firefox Version 112.0.1 (64-bit)
+- Microsoft Edge Version 112.0.1722.58 (Official build) (64-bit)
+- Apple Safari (Latest build on iOS 16.4.1)
+
 ### Manual Testing and Results
 ### User Story Tetsing
 ### Lighthouse Test
+Each pages has been tested on mobile and desktop with the following table dsiaplying the results:
+
+|Page|Device|Lighthouse Results|Notes|
+|---|---|---|---|
+|Index  |Mobile |![Index Mobile Results](documentation/index_mobile_performance.png)|74 Performance score is due to images not being in next-gen format and render-blocking resources (Bootstrap)|
+|Index  |Desktop |![Index Desktop Results](documentation/index_desktop_performance.png)||
+|About  |Mobile |![About Mobile Results](documentation/about_mobile_performance.png)|81 Performance score is due to images not being in next-gen format and render-blocking resources (Bootstrap)|
+|About  |Desktop |![About Desktop Results](documentation/about_desktop_performance.png)||
+|Gallery  |Mobile |![Gallery Mobile Results](documentation/gallery_mobile_performance.png)||
+|Gallery  |Desktop |![Gallery Desktop Results](documentation/gallery_desktop_performance.png)||
+|Price List  |Mobile |![Price List Mobile Results](documentation/price_list_mobile_performance.png)||
+|Price List  |Desktop |![Price List Desktop Results](documentation/price_list_desktop_performance.png)||
+|Contact  |Mobile |![Contact Mobile Results](documentation/contact_mobile_performance.png)|88 Performance score is due to images not being in next-gen format and render-blocking resources (Bootstrap)|
+|Contact  |Desktop |![Contact Desktop Results](documentation/contact_desktop_performance.png)||
+|Thank You  |Mobile |![Thank You Mobile Results](documentation/thankyou_mobile_performance.png)|77 Performance score is due to images not being in next-gen format and render-blocking resources (Bootstrap)|
+|Thank You  |Desktop |![Thank You Desktop Results](documentation/thankyou_desktop_performance.png)||
+
+**- As noted, the performance scores for some of the mobile pages drop to an average of 83. As the same issues are flagged, images not in a next-gen format and render-blocking resources, future builds of the website can look to move away from dependance on Bootstrap for some features and changing images to possible WebP or AVIF file types.**
+
 ### Responsiveness
 ### Bugs
 - When setting up the contact form I was unable to align the submit button within a DIV to the center. I tried a few methods I thought would work with no such luck. A Google search provided the answer and the following code resolved the issue:
