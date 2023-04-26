@@ -117,6 +117,22 @@ The site has been tested on the following browsers (latest builds as of 24/04/20
 - Apple Safari (Latest build on iOS 16.4.1)
 
 ### Manual Testing and Results
+Here is a table of the manual testing done on the site to determine if all features work as described and designed:
+
+|Feature Tested|Required Action|Expected Outcome|Result|
+|---|---|---|---|
+|Logo (all pages)|Left-click Logo to access homepage|This should direct the user to the homepage|Homepage successfully loads|
+|Home navigation link (all pages)|Left-click the Home navigation item|This should direct the user to the homepage|Homepage successfully loads|
+|About navigation link (all pages)|Left-click the About navigation item|This should direct the user to the about page|About page successfully loads|
+|Gallery navigation link (all pages)|Left-click the Gallery navigation item|This should direct the user to the gallery page|Gallery page successfully loads|
+|Price List navigation link (all pages)|Left-click the Price List navigation item|This should direct the user to the price list page|Price list page successfully loads|
+|Contact navigation link (all pages)|Left-click the Contact navigation item|This should direct the user to the contact page|Contact page successfully loads|
+|Missed information or incorrect format on contact form informs the user (Contact Page)|Miss one or more fields, or input the wrong info in a specific box(Phone number in Email input)|Failure to fill in the mandatory fields will prompt the user to do so| Missed information or incorrect format prompts them to complete the necessary input|
+|Contact form submits and loads Thank You page|Fill in the mandatory fields and left-click submit|This should direct the user to the thank you page|Thank you page successfully loads|
+|Facebook social link (all pages)|Left-click the Facebook social link item|This should direct the user to the business Facebook site|Facebook site successfully loads|
+|Instagram social link (all pages)|Left-click the Instagram social link item|This should direct the user to the business Instagram site|Instagram successfully loads|
+|TikTok Social link (all pages)|Left-click the TikTok social link item|This should direct the user to the business TikTok site|TikTok site successfully loads|
+
 ### User Story Tetsing
 ### Lighthouse Test
 Each pages has been tested on mobile and desktop with the following table dsiaplying the results:
