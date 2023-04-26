@@ -134,7 +134,23 @@ Here is a table of the manual testing done on the site to determine if all featu
 |TikTok Social link (all pages)|Left-click the TikTok social link item|This should direct the user to the business TikTok site|TikTok site successfully loads|
 
 ### User Story Tetsing
+
+|User Story|Screenshot|
+|---|---|
+|**First Time Visitor**|
+|As a first time visitor, I want to get to understand the main purpose of the site.|![Homepage](documentation/feature_homepage.png)|
+|As a first time visitor, I want to be able to easily navigate the site to find the content I require.|![Navigation](documentation/feature_navigation_bar.png)|
+|As a first time visitor, I want to know how much the services provided cost.|![Service cost](documentation/feature_price_list.png)|
+|As a first time visitor, I want to see where the business is located.|![Where to find the business](documentation/feature_wheretofindus.png)|
+|**Returning Visitor**|
+|As a returning visitor, I want to easily view the gallery page.|![Gallery](documentation/feature_gallery.png)|
+|As a returning visitor, I want to be able to contact the business owner about specific dates for boarding.|![Contact page](documentation/feature_contact.png)|
+|**Website Administrator**|
+|As a website administrator, I would like to display and update the gallery with ease.|![Gallery](documentation/feature_gallery.png)|
+|As a website administrator, I would like to be contactable via the website directly to my email address.|![Contact page](documentation/feature_contact.png)|
+
 ### Lighthouse Test
+
 Each pages has been tested on mobile and desktop with the following table dsiaplying the results:
 
 |Page|Device|Lighthouse Results|Notes|
@@ -155,6 +171,9 @@ Each pages has been tested on mobile and desktop with the following table dsiapl
 **- As noted, the performance scores for some of the mobile pages drop to an average of 83. As the same issues are flagged, images not in a next-gen format and render-blocking resources, future builds of the website can look to move away from dependance on Bootstrap for some features and changing images to possible WebP or AVIF file types.**
 
 ### Responsiveness
+
+The website has been tested on multiple web browsers, including Google Chrome, Microsoft Edge and Mozilla Firefox. Google Chrome Developer Tools have been used to simulate multiple different device screen sizes such as iPhone SE, Pixel 5, iPad Air and iPad Mini. It has been tested physically on an iPhone 12 Pro, 3rd Gen iPad and on desktop screens 2560 x 1440 pixels and 1920 x 1080 pixels.
+
 ### Bugs
 - When setting up the contact form I was unable to align the submit button within a DIV to the center. I tried a few methods I thought would work with no such luck. A Google search provided the answer and the following code resolved the issue:
 ```css
@@ -173,6 +192,9 @@ However, I believe this to be a temporary solution to one problem as the input b
 
 ### Unfixed Bugs
 ---
+
+As of the 26/04/2023 there are no known bugs present.
+
 ## Deployment
 ---
 ### How the site was deployed
