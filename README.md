@@ -191,16 +191,24 @@ max-width: 300px;
 However, I believe this to be a temporary solution to one problem as the input boxes still expand to the maximum width of the container. I'll look to amend this in a further update where the information this page expands from a single column on mobile to 3 columns on desktop in a future update.
 
 ### Unfixed Bugs
----
 
 As of the 26/04/2023 there are no known bugs present.
 
 ## Deployment
 ---
 ### How the site was deployed
----
+
+- In the project GitHub repository, select settings.
+- Once the page has loaded select Pages on the left-hand side.
+- Under 'Build and Deployment' there is a sub-heading called 'Source'.
+- Click the drop-down and select 'Deploy from Branch'.
+- Below the drop down is 'Branch', select 'main'
+- Once the main branch has been selected, the page will automatically refresh, showing a detailed ribbon display to indicate the successful deployment.
+- Any changes pushed to the main branch will take effect on the live project. A copy of the live project can be accessed [here](https://ahendley84.github.io/jangles-home-boarding/)
+
 ## Credits & Acknowledgements
 ---
 - Credit to RenatoSZ at [Stackoverflow](https://stackoverflow.com/questions/7560832/how-to-center-a-button-within-a-div) for his answer in helping me align my submit button within a DIV tag.
+- Credit to CI student Marius Militaru, his README.md was a brilliant example of how it should be laid out and the content required.
 - A massive thank you to Cath Jones of Jangles Home Boarding, Walking & Day Care for allowing me to use all the wonderful images she has taken of the dogs in her care.
-- Thank you to my mentor for his support and guidance through the process and for the idea of the 'thankyou.html' page to give the impression that the inputting of data achieved a result and a good use experience.
+- Thank you to my mentor, Chris Quinn, for his support and guidance through the process and for the idea of the 'thankyou.html' page to give the impression that the inputting of data achieved a result and a good use experience.
