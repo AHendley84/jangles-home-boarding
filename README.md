@@ -93,6 +93,7 @@ The thank you page is currently a place holder instead of the information being 
 - [codeanywhere](https://www.codeanywhere.com) was also used as the cloud based enviroment based on VS Code to develop the site.
 - [GitHub](https://github.com/) was used as the repository for the project after being pushed from GitPod.
 - [Google Maps](https://www.google.com/maps) for the business location map.
+- [TinyPNG](https://tinypng.com/) used for image compression.
 
 ## Testing
 ---

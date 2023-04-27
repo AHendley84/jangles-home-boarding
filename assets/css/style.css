@@ -188,7 +188,7 @@ ul li {
     padding-left: 20px;
     background-color: rgba(165, 85, 26, 0.75);
     top: 300px;
-    left: 40px;
+    left: 25px;
     position: absolute;
 }
 
@@ -376,6 +376,11 @@ ul li {
     padding-bottom: 30px;
 }
 
+.form-check-label {
+    width: 20px;
+    height: 20px;
+}
+
 /*------------Thank You page*/
 
 .thank_you_image {
@@ -405,7 +410,33 @@ ul li {
 
 /*------------Media Queries*/
 
+@media screen and (min-width: 575px) {
+
+    .welcome_image {
+        height: 700px;
+    }
+
+    .copyright_headings {
+        padding-top: 0px;
+        padding-right: 15px;
+    }
+
+    .copyright {
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+
+    .logo {
+        margin-bottom: 30px;
+    }
+
+    .navigation {
+        padding-top: 30px;
+    }
+}
+
 @media screen and (min-width: 767px) {
+    
     .fixed_footer {
         min-height: 100vh;
         display: flex;
@@ -418,7 +449,7 @@ ul li {
     }
     
     .navigation {
-        margin-top: 45px;
+        margin-top: 25px;
         padding-right: 10px;
         letter-spacing: -1px;
     }
@@ -429,10 +460,6 @@ ul li {
 
     .welcome_image {
         height: 800px;
-    }
-
-    .welcome_text {
-        height: 300px;
     }
 
     .about_background {
@@ -480,7 +507,8 @@ ul li {
 @media screen and (min-width: 1049px) {
     
     .navigation {
-        margin-top: 30px;
+        margin-top: 15px;
+        padding-bottom: 30px;
         font-size: 80%;
         letter-spacing: 1px;
     }
@@ -489,8 +517,8 @@ ul li {
 @media screen and (min-width: 1394px) {
 
     .logo {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
         margin-left: 50px;
     }
 
